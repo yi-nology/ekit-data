@@ -21,7 +21,9 @@ type SoftDeleteModel = src.SoftDeleteModel
 type TXFunc = src.TXFunc
 
 var InTransactionContext = src.InTransactionContext
+var IsNotFound = src.IsNotFound
 var IsUniqueViolation = src.IsUniqueViolation
+var MapQueryError = src.MapQueryError
 var Open = src.Open
 var OpenMySQL = src.OpenMySQL
 var OpenPureGoSQLite = src.OpenPureGoSQLite
